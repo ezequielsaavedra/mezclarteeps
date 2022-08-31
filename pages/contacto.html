@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Images/logo.PNG">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title> Mezclarte </title>
+</head>
+<body>
+  <header>
+    <picture class="header__logo">
+      <a href="../index.html" ><img src="../images/logo_completo.PNG" alt="Logo" class="header__img" > </a>
+    </picture>
+      <!--Navbar-->
+    <nav>         
+      <ul class="navbar">
+        <li class="navbar__links"><a href="../index.html">Inicio</a></li>
+        <li class="navbar__links"><a href="galeria.html"> Galeria</a></li> 
+        <li class="navbar__links"><a href="#">Productos</a>
+          <!--Dropdwonmenu-->
+          <ul class="dropdownmenu"  >
+            <li class="dropdownmenu__links"><a href="macetas.html">Macetas</a></li>
+            <li class="dropdownmenu__links"><a href="ceniceros.html">Ceniceros</a></li>
+            <li class="dropdownmenu__links"><a href="velas.html">Velas</a></li>
+            <li class="dropdownmenu__links"><a href="decoraciones.html">Decoraciones</a></li>
+          </ul>
+        </li>
+        <li class="navbar__links"><a href="contacto.html">Contacto</a></li> 
+      </ul>
+    </nav> 
+  </header>
+  <!--Contenido-->
+<main class="contacto">
+<form class="contacto__form">
+  <h1>Contacto</h1>
+  <label for="Nombre" class="contacto__form__label">Nombre</label> 
+  <input type="text" id="Nombre">
+  <label for="Apellido" class="contacto__form__label">Apellido</label>
+  <input type="text" id="Apellido">
+  <label for="Email" class="contacto__form__label">Email</label>
+  <input type="text" id="Email">
+  <Label for="Comentarios" class="contacto__form__label">Comentarios</Label>
+  <textarea id="Comentarios" cols="30" rows="10" placeholder="Comentarios"></textarea>
+  <input type="submit" class="button">
+</form>
+</main>
+  <!--Links contacto-->
+<footer>
+    <div class="footer__links">
+      <picture class="footer__img">
+        <a href="https://wa.me/543416956055" target="_blank"><img src="../images/whatsapp.PNG" alt="Logo whatsapp" class="footer__img--radius"></a>
+      </picture>
+      <picture class="footer__img">
+        <a href="https://www.instagram.com/a_mezclarte/" target="_blank"><img src="../images/insta.PNG" alt="Logo Instragram" class="footer__img--radius"> </a> 
+      </picture>
+  </div>   
+  </footer>
+</body>
+</html>
