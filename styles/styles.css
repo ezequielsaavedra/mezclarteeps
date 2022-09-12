@@ -44,7 +44,6 @@ header {
 /*Navbar*/
 
 .nav-item {
-    background-color: #eca3ec;
     padding: .5rem 2.5rem .5rem 2.5rem;
     font-size: 20px;
 }
@@ -118,25 +117,17 @@ header {
   /*Main Contacto*/
 
 .contacto {
-  grid-area: main;
   background-image: url(../images/fondo_contacto.PNG);
   background-repeat: no-repeat;
   background-size:cover ;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   min-height: 70vh;
 }
 
 .contacto__form {
-  background-color: var(--color-opacity);
-  border-radius: 5px;
-  opacity: .8;
-  display: flex;
-  flex-direction: column;
-  font-size: 16px;
+  background-color: #b98eb9 ;
+  border-radius: 10px;
+  opacity: .85;
+  padding: 1rem 0.2rem 1rem 0.2rem;
 }
 
   /*Footer*/

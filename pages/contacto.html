@@ -10,8 +10,8 @@
     <title> Mezclarte </title>
 </head>
 <body class="container-fluid">
- <!-- Inicio Header -->
- <header class="row">
+<!-- Inicio Header -->
+<header class="row sticky-top">
   <!-- Inicio Navbar -->
   <nav class="col navbar navbar-expand-lg">     
     <div class="container-fluid"> 
@@ -46,19 +46,31 @@
   </nav> 
 </header>
   <!--Contenido-->
-<main class="contacto">
-<form class="contacto__form">
+<main class="row justify-content-center align-items-center contacto">
+  <section class="col-7 col-md-5 col-lg-2">
+<form class="row g-3 contacto__form">
   <h1>Contacto</h1>
-  <label for="Nombre" class="contacto__form__label">Nombre</label> 
-  <input type="text" id="Nombre">
-  <label for="Apellido" class="contacto__form__label">Apellido</label>
-  <input type="text" id="Apellido">
-  <label for="Email" class="contacto__form__label">Email</label>
-  <input type="text" id="Email">
-  <Label for="Comentarios" class="contacto__form__label">Comentarios</Label>
-  <textarea id="Comentarios" cols="30" rows="10" placeholder="Comentarios"></textarea>
-  <input type="submit" class="button">
+  <div class="col-6">
+    <label for="Nombre" class="form-label">Nombre</label> 
+    <input type="text" class="form-control" id="Nombre">
+  </div>
+  <div class="col-6">
+    <label for="Apellido" class="form-label">Apellido</label>
+    <input type="text" class="form-control" id="Apellido">
+  </div>
+<div class="col-12">
+  <label for="Email" class="form-label">Email</label>
+  <input type="email" class="form-control" id="Email">
+</div>
+<div class="col-12">
+  <Label for="Comentarios" class="form-label">Comentarios</Label>
+  <textarea id="Comentarios" class="form-control" rows="3" placeholder="Comentarios"></textarea>
+</div>
+<div class="col">
+<input type="submit" class="button">
+</div>
 </form>
+</section>
 </main>
   <!--Links contacto-->
     <!-- Inicio Footer-->
