@@ -26,7 +26,7 @@
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mobile-navbar">
-              <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link"  href="../index.html">Inicio</a></li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
                   <!-- Inicio Dropdownmenu -->
                 <ul class="dropdown-menu">
@@ -36,7 +36,7 @@
                   <li><a class="dropdown-item" href="decoraciones.html">Decoraciones</a></li>
                 </ul>
               </li>
-              <li class="nav-item"><a class="nav-link" href="galeria.html"> Galeria</a></li> 
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="galeria.html"> Galeria</a></li> 
               <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li> 
               </ul>
               </div>
@@ -46,45 +46,170 @@
     </nav> 
   </header>
     <!--Contenido-->
-<main>
-  <section class="gallery">
-    <picture class="gallery__img"> 
-      <img src="../images/cecinero_uno.PNG " alt="Cenicero Cuadrado Negro Rojo">
-    </picture>
-    <picture class="gallery__img">
-      <img src="../images/cenicero_dos.PNG " alt="Cenicero Redondo Negro Rojo">
-    </picture>
-    <picture class="gallery__img">
-      <img src="../images/cenicero_tres.PNG" alt="Cenicero Cuadrado Azul Amarillo">
-    </picture>
-    <picture class="gallery__img">
-      <img src="../images/deco_uno.jpg " alt="Mano Fatima">
-    </picture>
-    <picture class="gallery__img">  
-      <img src="../images/deco_dos.jpg " alt="Set de Baño">
-    </picture>
-    <picture class="gallery__img">
-      <img src="../images/deco_tres.PNG" alt="Velador">
-    </picture>
-    <picture class="gallery__img">
-      <img src="../images/maceta_uno.jpg " alt="Maceta Frida">
-    </picture>
-    <picture class="gallery__img">
-      <img src="../images/maceta_dos.jpg " alt="Maceta Oveja">
-    </picture>
-    <picture class="gallery__img">
-      <img src="../images/maceta_tres.PNG" alt="Maceta Vader">
-    </picture>
-    <picture class="gallery__img">
-      <img src="../images/vela_uno.PNG " alt="Velas Grises">
-    </picture>
-    <picture class="gallery__img">
-      <img src="../images/vela_dos.PNG " alt="Velas Marrones">
-    </picture>
-    <picture class="gallery__img">
-      <img src="../images/vela_tres.PNG" alt="Vela Gris Grande">
-    </picture>
-</section>
+<main class="row justify-content-evenly g-3 gallery">
+  <!--Primer carousel-->
+  <div class=" col-10 col-md-5 col-lg-4 carousel slide" id="primercarousel"  data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#primercarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#primercarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#primercarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active"> 
+        <img src="../images/galeria_uno.png " class="d-block w-100" alt="Set de Baño">
+      </div>
+      <div class="carousel-item active">
+        <img src="../images/galeria_dos.PNG " class="d-block w-100" alt="Escalinata">
+      </div>
+      <div class="carousel-item active">
+        <img src="../images/galeria_tres.PNG" class="d-block w-100" alt="Posavasos">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#primercarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#primercarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--Segundo carousel-->
+<div class="col-10 col-md-5 col-lg-4 carousel slide" id="segundocarousel"  data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#segundocarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#segundocarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#segundocarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active"> 
+      <img src="../images/galeria_cuatro.png " class="d-block w-100" alt="Set de Baño">
+    </div>
+    <div class="carousel-item active">
+      <img src="../images/galeria_cinco.png " class="d-block w-100" alt="Maceta Buho">
+    </div>
+    <div class="carousel-item active">
+      <img src="../images/galeria_seis.png"class="d-block w-100" alt="Hornito para Escencia">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#segundocarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#segundocarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--Tercer carousel-->
+<div class="col-10 col-md-5 col-lg-4 carousel slide" id="tercercarousel"  data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#tercercarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#tercercarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#tercercarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active"> 
+      <img src="../images/galeria_siete.png" class="d-block w-100" alt="Maceta Buda">
+    </div>
+    <div class="carousel-item active">
+      <img src="../images/galeria_ocho.png " class="d-block w-100" alt="VELITAS PARA SOUVENIR">
+    </div>
+    <div class="carousel-item active">
+      <img src="../images/galeria_nueve.png" class="d-block w-100" alt="Maceta con Flores">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#tercercarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#tercercarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--Cuarto carousel-->
+<div class="col-10 col-md-5 col-lg-4 carousel slide" id="cuartocarousel"  data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#cuartocarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#cuartocarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#cuartocarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active"> 
+      <img src="../images/galeria_diez.png " class="d-block w-100" alt="Maceta Elefante">
+    </div>
+    <div class="carousel-item active">
+      <img src="../images/galeria_once.png "class="d-block w-100" alt="Maceta Corazon">
+    </div>
+    <div class="carousel-item active">
+      <img src="../images/galeria_doce.png" class="d-block w-100" alt="VELITAS PARA SOUVENIR">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#cuartocarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#cuartocarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--Quinto carousel-->
+<div class="col-10 col-md-5 col-lg-4 carousel slide" id="quintocarousel"  data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#quintocarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#quintocarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#quintocarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active"> 
+      <img src="../images/galeria_trece.png " class="d-block w-100" alt="TATETI">
+    </div>
+    <div class="carousel-item active">
+      <img src="../images/galeria_catorce.png "class="d-block w-100" alt="Maceta Gatito">
+    </div>
+    <div class="carousel-item active">
+      <img src="../images/galeria_quince.png" class="d-block w-100" alt="Maceta Erizo">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#quintocarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#quintocarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!--Sexto carousel-->
+<div class="col-10 col-md-5 col-lg-4 carousel slide" id="sextocarousel"  data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#sextocarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#sextocarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#sextocarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active"> 
+      <img src="../images/galeria_dieciseis.png " class="d-block w-100" alt="Maceta Caracol">
+    </div>
+    <div class="carousel-item active">
+      <img src="../images/galeria_diecisiete.png "class="d-block w-100" alt="Maceta Honguito">
+    </div>
+    <div class="carousel-item active">
+      <img src="../images/galeria_dieciocho.png" class="d-block w-100" alt="Velalitas Pequeñas">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#sextocarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#sextocarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 </main>
       <!-- Inicio Footer-->
       <footer class="row sticky-bottom align-items-center">
@@ -94,7 +219,7 @@
                 <a href="https://wa.me/543416956055" target="_blank"> <img src="../images/whatsapp.PNG" alt="Logo whatsapp" class="footer__img"></a>
                 </picture>
               <picture> 
-                <a href="https://www.instagram.com/a_mezclarte/" target="_blank"><img src="../images/insta.PNG" alt="Logo Instragram" class="footer__img"> </a>
+                <a href="https://www.instagram.com/a_mezclarte/" target="_blank"><img src="../images/instagram.PNG" alt="Logo Instragram" class="footer__img"> </a>
               </picture>
         </div> 
       </footer>

@@ -102,16 +102,8 @@ header {
   /*Main Galeria*/
 
 .gallery {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
   margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
-}
-
-.gallery__img{
-  width: 45%;
-  margin: .2rem;
+  margin-bottom: 1rem;
 }
 
   /*Main Contacto*/
