@@ -13,9 +13,9 @@
   <!-- Inicio Header -->
   <header class="row">
     <!-- Inicio Navbar -->
-    <nav class="col navbar navbar-expand-lg bg-light sticky-top">     
+    <nav class="col navbar navbar-expand-lg">     
       <div class="container-fluid"> 
-          <a class="navbar-brand" href="index.html" ><img src="images/logo_completo.PNG" alt="Logo"> </a>
+          <a class="navbar-brand header__logo" href="index.html"><img src="images/logo_completo.PNG" alt="Logo" class="header__img"> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -27,7 +27,6 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 mobile-navbar">
               <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
-              <li class="nav-item"><a class="nav-link" href="pages/galeria.html"> Galeria</a></li> 
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
                   <!-- Inicio Dropdownmenu -->
                 <ul class="dropdown-menu">
@@ -37,6 +36,7 @@
                   <li><a class="dropdown-item" href="pages/decoraciones.html">Decoraciones</a></li>
                 </ul>
               </li>
+              <li class="nav-item"><a class="nav-link" href="pages/galeria.html"> Galeria</a></li> 
               <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li> 
               </ul>
               </div>
@@ -46,10 +46,9 @@
     </nav> 
   </header>
   <!-- Inicio Main -->
-  <main class="row" >
-    <div class="col card text-bg-dark position-relative"> 
-      <img src="images/imagen_inicio.PNG" class="card-img" alt="background">
-  <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+  <main class="row text-center align-items-center justify-content-center home" >
+    <div class="col-9 col-md-5 col-lg-4 card text-center opacity-50"> 
+  <div class="card-body home__description">
   <h1 class="card-title ">Decoraciones en cemento</h1>
   <h2 class="card-text">Macetas</h2> 
   <h2 class="card-text">Velas</h2>  
@@ -58,17 +57,15 @@
     </div>
   </main>
   <!-- Inicio Footer-->
-  <footer class="row fixed-bottom">
+  <footer class="row sticky-bottom align-items-center">
     <div class=" col">
-        <a href="pages/contacto.html" > <button>Contactame</button> </a>
-      <div>
-        <!-- <picture>
-          <a href="https://wa.me/543416956055" target="_blank"> <img src="images/whatsapp.PNG" alt="Logo whatsapp"></a>
+          <a href="pages/contacto.html" > <button class="button">Contactame</button> </a>
+          <picture>
+            <a href="https://wa.me/543416956055" target="_blank"> <img src="images/whatsapp.PNG" alt="Logo whatsapp" class="footer__img"></a>
+            </picture>
+          <picture> 
+            <a href="https://www.instagram.com/a_mezclarte/" target="_blank"><img src="images/insta.PNG" alt="Logo Instragram" class="footer__img"> </a>
           </picture>
-        <picture> 
-          <a href="https://www.instagram.com/a_mezclarte/" target="_blank"><img src="images/insta.PNG" alt="Logo Instragram"> </a>
-        </picture>-->
-      </div>   
     </div> 
   </footer>
   <!-- JavaScript Bundle with Popper -->
