@@ -19,10 +19,10 @@ body {
 
 .button:hover {
     background-color:#eca3ec;
-    font-size: 21px;
+    font-size: 18px;
     transition: 1s ease-in-out;
-    height: 3.2rem;
-    width: 9.2rem;
+    height: 3.0rem;
+    width: 8.5rem;
     box-shadow: 2px 2px 2px 2px;
   }
 
@@ -86,7 +86,6 @@ header {
 
 .products{
     border: 1px solid rgb(168, 163, 163);
-    border-radius: 10px;
 }
 
 .products:hover {
@@ -96,7 +95,8 @@ header {
 }
 .products-text {
     background-image: linear-gradient(to bottom, #f0ccf0, #efc2ef, #eeb8ee, #edaded, #eca3ec);
-    border-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
   /*Main Galeria*/
@@ -104,6 +104,11 @@ header {
 .gallery {
   margin-top: 0.2rem;
   margin-bottom: 1rem;
+}
+
+.img-gallery:hover {
+  opacity: 0.85;
+  transition: 1s;
 }
 
   /*Main Contacto*/
@@ -134,4 +139,5 @@ footer {
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
+    margin-left: 1rem;
   }
