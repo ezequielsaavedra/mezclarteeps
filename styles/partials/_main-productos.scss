@@ -1,0 +1,21 @@
+.main-products  {
+    min-height: $height-main;
+    margin: 1rem;
+    .products{
+        border: 1px solid rgb(168, 163, 163);
+        &:hover{
+            border: 1px solid rgb(0, 0, 0);
+            transform: scale(1.1,1.1);
+            transition: all 1s ease-in-out;
+        }
+        .products-text {
+            background-image: linear-gradient(to bottom, $background-gradiente-lineal);
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        
+    }
+}
+
+
+

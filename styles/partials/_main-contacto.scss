@@ -1,0 +1,13 @@
+.contacto {
+    background-image: url(../images/fondo_contacto.PNG);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    min-height: $height-main;
+    .contacto__form {
+        background-color: #b98eb9 ;
+        border-radius: 10px;
+        opacity: $opacity;
+        padding: 1rem 0.2rem 1rem 0.2rem;
+    }    
+}
+

@@ -1,0 +1,10 @@
+.home {
+    background-image: url(../images/imagen_inicio.PNG);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    min-height: $height-main;
+    .home__description {
+        min-height: 20vh;
+    }
+}
+

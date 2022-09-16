@@ -1,0 +1,12 @@
+  .gallery {
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    min-height: $height-main;
+    .img-gallery {
+      &:hover {
+      opacity: $opacity;
+      transition: 1s;
+      }
+    }
+  }
+  

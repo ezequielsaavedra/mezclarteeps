@@ -1,0 +1,29 @@
+/*variables*/
+$background-gradiente-lineal: #f0ccf0, #efc2ef, #eeb8ee, #edaded, #eca3ec;
+$background-header-uno: #eca3ec;
+$background-header-dos: #d486d4;
+$height-main: 70vh;
+$opacity: 0.85;
+/*Estilos generales*/
+body {
+    background-image: radial-gradient(circle, #fff8fc, #fdedf7, #fbe1f3, #f7d6ef, #f3cbec, #f2c6eb, #f1c0eb, #efbbea, #f1baeb, #f3b9eb, #f6b7ec, #f8b6ec);
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .button {
+        width: 8rem ;
+        height: 2.7rem;
+        background-color: rgb(212, 172, 189) ;
+        cursor: pointer;
+        border-radius: 5px;
+        &:hover {
+            background-color:hsl(300, 66%, 78%);
+            font-size: 18px;
+            height: 3.0rem;
+            width: 8.5rem;
+            box-shadow: 2px 2px 2px 2px;
+            transition: all 1s ease-in-out;
+        }
+    }
+}

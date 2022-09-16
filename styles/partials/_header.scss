@@ -1,0 +1,29 @@
+header {
+    background-image: linear-gradient(to bottom, $background-gradiente-lineal);
+    min-height: 20vh;
+    .header__logo {
+        width: auto;
+        height: 15vh;
+        .header__img {
+            border-radius: 50%;
+        }
+    }
+    .offcanvas {
+        background-color: $background-header-uno;
+        .nav-item {
+            padding: .5rem 2.5rem .5rem 2.5rem;
+            font-size: 20px;
+            &:hover{
+                background-color: $background-header-dos
+            }
+            .dropdown-menu {
+                background-color: $background-header-uno;
+                .dropdown-item{
+                    &:hover {
+                        background-color: $background-header-dos;
+                    }
+                }
+            } 
+        }
+    }
+}

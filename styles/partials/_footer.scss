@@ -1,0 +1,11 @@
+footer {
+    background-image: linear-gradient(to top, $background-gradiente-lineal);
+    min-height: 10vh;
+    .footer__img {
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+        margin-left: 1rem;
+    }
+}
+
