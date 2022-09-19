@@ -2,9 +2,15 @@ header {
     background-image: linear-gradient(to bottom, $background-gradiente-lineal);
     min-height: 20vh;
     .header__logo {
-        width: auto;
-        height: 15vh;
+        padding-left: 1rem;
+        &:hover {
+            background-color:$backgroun-button-hover;
+            padding: 1rem;
+            border-radius: 50%;
+        }
         .header__img {
+            width: 8rem;
+            height: auto;
             border-radius: 50%;
         }
     }

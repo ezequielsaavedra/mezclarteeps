@@ -1,11 +1,26 @@
 footer {
     background-image: linear-gradient(to top, $background-gradiente-lineal);
     min-height: 10vh;
-    .footer__img {
-        height: 3rem;
-        width: 3rem;
-        border-radius: 50%;
-        margin-left: 1rem;
+    .footer__button {
+        margin-top: .4rem;
     }
+    .footer__logos {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        padding: 0.5rem;
+        &:hover {
+            background-color:$backgroun-button-hover;
+            border-radius: 50%; 
+        }
+        .footer__img {
+            height: 2.5rem;
+            width: 2.5rem;
+            border-radius: 50%;
+            &:hover {
+                transform: scale(1.1,1.1);
+            }
+        }
+    }
+    
 }
 
