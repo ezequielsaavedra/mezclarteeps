@@ -1,5 +1,14 @@
-/*variables*/
-/*Estilos generales*/
+.button-contacto, .button {
+  width: 8rem;
+  height: 2.7rem;
+  background-color: rgb(212, 172, 189);
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button-contacto:hover, .button:hover {
+  background-color: hsl(300deg, 66%, 78%);
+}
+
 a {
   text-decoration: none;
 }
@@ -14,20 +23,6 @@ body {
 body img {
   width: 100%;
   height: 100%;
-}
-body .button {
-  width: 8rem;
-  height: 2.7rem;
-  background-color: rgb(212, 172, 189);
-  cursor: pointer;
-  border-radius: 5px;
-}
-body .button:hover {
-  background-color: hsl(300deg, 66%, 78%);
-  font-size: 18px;
-  transform: scale(1.1, 1.1);
-  box-shadow: 2px 2px 2px 2px;
-  transition: all 1s ease-in-out;
 }
 
 header {
@@ -121,9 +116,11 @@ header .offcanvas .nav-item .dropdown-menu .dropdown-item:hover {
 }
 .contacto .contacto__form {
   background-color: #b98eb9;
-  border-radius: 10px;
-  opacity: 0.85;
-  padding: 1rem 0.2rem 1rem 0.2rem;
+  border-radius: 5px;
+  opacity: 0.8;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 0.2rem 1rem 0.2rem;
 }
 
 footer {
@@ -149,4 +146,10 @@ footer .footer__logos .footer__img {
 }
 footer .footer__logos .footer__img:hover {
   transform: scale(1.1, 1.1);
+}
+
+.button:hover {
+  font-size: 18px;
+  transform: scale(1.1, 1.1);
+  transition: all 1s ease-in-out;
 }/*# sourceMappingURL=styles.css.map */

@@ -2,7 +2,7 @@
     background-image: url(../images/imagen_inicio.PNG);
     background-repeat: no-repeat;
     background-size:cover ;
-    min-height: $height-main;
+    min-height: map-get($tamanos , height-main );
     .home__description {
         min-height: 20vh;
         padding: 1rem 0 1rem 0;

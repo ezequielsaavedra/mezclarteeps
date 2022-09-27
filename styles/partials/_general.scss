@@ -1,11 +1,3 @@
-/*variables*/
-$background-gradiente-lineal: #f0ccf0, #efc2ef, #eeb8ee, #edaded, #eca3ec;
-$background-header-uno: #eca3ec;
-$background-header-dos: #d486d4;
-$backgroun-button-hover:hsl(300, 66%, 78%);
-$height-main: 70vh;
-$opacity: 0.85;
-/*Estilos generales*/
 a{
     text-decoration: none;
 }
@@ -17,19 +9,5 @@ body {
     img {
         width: 100%;
         height: 100%;
-    }
-    .button {
-        width: 8rem ;
-        height: 2.7rem;
-        background-color: rgb(212, 172, 189) ;
-        cursor: pointer;
-        border-radius: 5px;
-        &:hover {
-            background-color: $backgroun-button-hover;
-            font-size: 18px;
-            transform: scale(1.1,1.1);
-            box-shadow: 2px 2px 2px 2px;
-            transition: all 1s ease-in-out;
-        }
     }
 }

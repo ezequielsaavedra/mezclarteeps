@@ -1,12 +1,12 @@
-  .gallery {
-    margin-top: 0.2rem;
-    margin-bottom: 1rem;
-    min-height: $height-main;
-    .img-gallery {
-      &:hover {
-      opacity: $opacity;
+.gallery {
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+  min-height: map-get($tamanos , height-main );
+  .img-gallery {
+    &:hover {
+      opacity: map-get($opacity , opacity-galeria );
       transition: 1s;
-      }
     }
   }
-  
+}
+

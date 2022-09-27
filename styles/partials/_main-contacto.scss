@@ -2,12 +2,14 @@
     background-image: url(../images/fondo_contacto.PNG);
     background-repeat: no-repeat;
     background-size:cover ;
-    min-height: $height-main;
+    min-height: map-get($tamanos , height-main );
     .contacto__form {
         background-color: #b98eb9 ;
-        border-radius: 10px;
-        opacity: $opacity;
-        padding: 1rem 0.2rem 1rem 0.2rem;
+        border-radius: map-get($tamanos , raddius-card );
+        opacity: map-get($opacity , opacity-contacto );
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        padding: 0.5rem 0.2rem 1rem 0.2rem;
     }    
 }
 

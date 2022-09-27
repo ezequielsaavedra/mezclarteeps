@@ -1,0 +1,12 @@
+.button {
+    @extend %buttondefault;
+    &:hover {
+        font-size: 18px;
+        transform: scale(1.1,1.1);
+        transition: all 1s ease-in-out;
+    }
+}
+
+.button-contacto {
+    @extend %buttondefault;
+}

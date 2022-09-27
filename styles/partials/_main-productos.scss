@@ -1,5 +1,5 @@
 .main-products  {
-    min-height: $height-main;
+    min-height: map-get($tamanos , height-main );
     margin: 1rem;
     .products{
         border: 1px solid rgb(168, 163, 163);
@@ -9,11 +9,10 @@
             transition: all 1s ease-in-out;
         }
         .products-text {
-            background-image: linear-gradient(to bottom, $background-gradiente-lineal);
-            border-bottom-left-radius: 5px;
-            border-bottom-right-radius: 5px;
+            background-image: linear-gradient(to bottom, $background-gradiente-lineal );
+            border-bottom-left-radius: map-get($tamanos , raddius-card );
+            border-bottom-right-radius: map-get($tamanos , raddius-card );
         }
-        
     }
 }
 

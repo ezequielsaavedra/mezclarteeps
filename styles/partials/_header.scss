@@ -1,32 +1,32 @@
 header {
-    background-image: linear-gradient(to bottom, $background-gradiente-lineal);
+    background-image: linear-gradient(to bottom, $background-gradiente-lineal );
     min-height: 20vh;
     .header__logo {
         padding-left: 1rem;
         &:hover {
-            background-color:$backgroun-button-hover;
+            background-color:map-get($colores , backgroun-button-hover );
             padding: 1rem;
-            border-radius: 50%;
+            border-radius: map-get($tamanos , raddius-img ); 
         }
         .header__img {
             width: 8rem;
             height: auto;
-            border-radius: 50%;
+            border-radius: map-get($tamanos , raddius-img ); 
         }
     }
     .offcanvas {
-        background-color: $background-header-uno;
+        background-color: map-get($colores , background-header-uno );
         .nav-item {
             padding: .5rem 2.5rem .5rem 2.5rem;
             font-size: 20px;
             &:hover{
-                background-color: $background-header-dos
+                background-color: map-get($colores , background-header-dos );
             }
             .dropdown-menu {
-                background-color: $background-header-uno;
+                background-color: map-get($colores , background-header-uno );
                 .dropdown-item{
                     &:hover {
-                        background-color: $background-header-dos;
+                        background-color: map-get($colores , background-header-dos );
                     }
                 }
             } 
