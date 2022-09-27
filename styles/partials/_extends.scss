@@ -2,7 +2,6 @@
     width: 8rem ;
     height: 2.7rem;
     background-color: rgb(212, 172, 189) ;
-    cursor: pointer;
     border-radius: map-get($tamanos , raddius-card );
     &:hover {
         background-color:map-get($colores , backgroun-button-hover );

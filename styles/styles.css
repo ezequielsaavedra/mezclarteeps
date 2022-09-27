@@ -2,7 +2,6 @@
   width: 8rem;
   height: 2.7rem;
   background-color: rgb(212, 172, 189);
-  cursor: pointer;
   border-radius: 5px;
 }
 .button-contacto:hover, .button:hover {
@@ -10,6 +9,7 @@
 }
 
 a {
+  color: black;
   text-decoration: none;
 }
 
@@ -34,8 +34,8 @@ header .header__logo {
 }
 header .header__logo:hover {
   background-color: hsl(300deg, 66%, 78%);
-  padding: 1rem;
   border-radius: 50%;
+  padding: 1rem;
 }
 header .header__logo .header__img {
   width: 8rem;
@@ -74,10 +74,6 @@ header .offcanvas .nav-item .dropdown-menu .dropdown-item:hover {
   flex-direction: column;
   margin: 0;
   padding: 0;
-}
-.home .home__description .description__links a {
-  color: black;
-  font-size: 1.5rem;
 }
 
 .main-products {
@@ -152,4 +148,64 @@ footer .footer__logos .footer__img:hover {
   font-size: 18px;
   transform: scale(1.1, 1.1);
   transition: all 1s ease-in-out;
+}
+
+.description__links .description__button:nth-child(1) {
+  border: none;
+  color: black;
+  font-size: 1.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.description__links .description__button:nth-child(1):hover {
+  background-color: rgb(248, 153, 212);
+}
+.description__links .description__button:nth-child(2) {
+  border: none;
+  color: black;
+  font-size: 1.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.description__links .description__button:nth-child(2):hover {
+  background-color: rgb(236, 131, 196);
+}
+.description__links .description__button:nth-child(3) {
+  border: none;
+  color: black;
+  font-size: 1.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.description__links .description__button:nth-child(3):hover {
+  background-color: rgb(189, 92, 152);
+}
+.description__links .description__button:nth-child(4) {
+  border: none;
+  color: black;
+  font-size: 1.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.description__links .description__button:nth-child(4):hover {
+  background-color: rgb(155, 60, 118);
+}
+.description__links .description__button:nth-child(5) {
+  border: none;
+  color: black;
+  font-size: 1.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.description__links .description__button:nth-child(5):hover {
+  background-color: rgb(153, 50, 114);
+}
+.description__links .description__button a {
+  color: black;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=styles.css.map */

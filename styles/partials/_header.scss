@@ -5,8 +5,8 @@ header {
         padding-left: 1rem;
         &:hover {
             background-color:map-get($colores , backgroun-button-hover );
-            padding: 1rem;
             border-radius: map-get($tamanos , raddius-img ); 
+                padding: 1rem;
         }
         .header__img {
             width: 8rem;
