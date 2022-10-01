@@ -1,6 +1,9 @@
 .main-products  {
     min-height: map-get($tamanos , height-main );
     margin: 1rem;
+    .encabezado-productos{
+        letter-spacing: 1rem;
+    }
     .products{
         border: 1px solid rgb(168, 163, 163);
         &:hover{

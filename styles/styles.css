@@ -80,6 +80,9 @@ header .offcanvas .nav-item .dropdown-menu .dropdown-item:hover {
   min-height: 70vh;
   margin: 1rem;
 }
+.main-products .encabezado-productos {
+  letter-spacing: 1rem;
+}
 .main-products .products {
   border: 1px solid rgb(168, 163, 163);
 }
