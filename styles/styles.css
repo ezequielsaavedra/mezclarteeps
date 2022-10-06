@@ -33,9 +33,7 @@ header .header__logo {
   padding-left: 1rem;
 }
 header .header__logo:hover {
-  background-color: hsl(300deg, 66%, 78%);
-  border-radius: 50%;
-  padding: 1rem;
+  transform: scale(1.1, 1.1);
 }
 header .header__logo .header__img {
   width: 8rem;
@@ -135,10 +133,6 @@ footer .footer__logos {
   margin-left: 1rem;
   margin-bottom: 1rem;
   padding: 0.5rem;
-}
-footer .footer__logos:hover {
-  background-color: hsl(300deg, 66%, 78%);
-  border-radius: 50%;
 }
 footer .footer__logos .footer__img {
   height: 2.5rem;

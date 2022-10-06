@@ -8,10 +8,6 @@ footer {
         margin-left: 1rem;
         margin-bottom: 1rem;
         padding: 0.5rem;
-        &:hover {
-            background-color:map-get($colores , backgroun-button-hover );
-            border-radius: map-get($tamanos , raddius-img ); 
-        }
         .footer__img {
             height: 2.5rem;
             width: 2.5rem;

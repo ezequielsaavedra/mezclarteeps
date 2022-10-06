@@ -4,9 +4,7 @@ header {
     .header__logo {
         padding-left: 1rem;
         &:hover {
-            background-color:map-get($colores , backgroun-button-hover );
-            border-radius: map-get($tamanos , raddius-img ); 
-                padding: 1rem;
+            transform: scale(1.1,1.1);
         }
         .header__img {
             width: 8rem;
