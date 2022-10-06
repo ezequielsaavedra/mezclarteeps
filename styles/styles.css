@@ -45,7 +45,7 @@ header .offcanvas {
 }
 header .offcanvas .nav-item {
   padding: 0.5rem 2.5rem 0.5rem 2.5rem;
-  font-size: 20px;
+  font-size: 1.5em;
 }
 header .offcanvas .nav-item:hover {
   background-color: #d486d4;
@@ -58,7 +58,7 @@ header .offcanvas .nav-item .dropdown-menu .dropdown-item:hover {
 }
 
 .home {
-  background-image: url(https://i.ibb.co/58HYkDV/imagen-inicio.jpg);
+  background-image: url(https://img.freepik.com/fotos-premium/planta-tropical-maceta-chamaedorea-velas-toallas-bano-bano-acogedor-concepto-hogar-imagen-horizontal_102556-647.jpg?w=1380);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -108,7 +108,7 @@ header .offcanvas .nav-item .dropdown-menu .dropdown-item:hover {
 }
 
 .contacto {
-  background-image: url(https://i.ibb.co/sPw2RXv/fondo-contacto.jpg);
+  background-image: url(https://img.freepik.com/foto-gratis/primer-plano-planta-plantacion-manos-jardinero_1150-26615.jpg?w=1380&t=st=1665016865~exp=1665017465~hmac=8d36bd28c565ce849e83585c1f451d4f9c788847563fdb899f7ba0da2f3df939);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -127,17 +127,12 @@ footer {
   min-height: 10vh;
 }
 footer .footer__button {
-  margin-top: 0.4rem;
+  margin-top: 0.7rem;
 }
 footer .footer__logos {
   margin-left: 1rem;
   margin-bottom: 1rem;
   padding: 0.5rem;
-}
-footer .footer__logos .footer__img {
-  height: 2.5rem;
-  width: 2.5rem;
-  border-radius: 50%;
 }
 footer .footer__logos .footer__img:hover {
   transform: scale(1.1, 1.1);
