@@ -7,6 +7,8 @@
     .home__description {
         min-height: 20vh;
         padding: 1rem 0 1rem 0;
+        margin-top: 15rem;
+        background-color: map-get($colores , background-card );
         .description__links {
             display: flex;
             flex-direction: column;
