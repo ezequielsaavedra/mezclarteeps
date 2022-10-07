@@ -67,8 +67,8 @@ header .offcanvas .nav-item .dropdown-menu .dropdown-item:hover {
 .home .home__description {
   min-height: 20vh;
   padding: 1rem 0 1rem 0;
-  margin-top: 15rem;
-  background-color: hsla(300deg, 23%, 64%, 0.8);
+  margin-top: 10rem;
+  background-color: hsla(300deg, 23%, 64%, 0.7);
 }
 .home .home__description .description__links {
   display: flex;
@@ -77,20 +77,31 @@ header .offcanvas .nav-item .dropdown-menu .dropdown-item:hover {
   padding: 0;
   font-size: 1.5em;
 }
+.home .home__description .description__links li:hover {
+  transform: scale(1.1, 1.1);
+}
+.home .home__description .img-descripcion {
+  padding: 1em;
+}
 
 .main-products {
   min-height: 70vh;
   margin: 1rem;
 }
 .main-products .encabezado-productos {
-  letter-spacing: 1rem;
+  letter-spacing: 1em;
+  cursor: pointer;
+}
+.main-products .encabezado-productos:hover {
+  letter-spacing: 1.5em;
+  transition: all 1s ease-in-out;
 }
 .main-products .products {
   border: 1px solid rgb(168, 163, 163);
 }
 .main-products .products:hover {
   border: 1px solid rgb(0, 0, 0);
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
   transition: all 1s ease-in-out;
 }
 .main-products .products .products-text {
@@ -117,7 +128,7 @@ header .offcanvas .nav-item .dropdown-menu .dropdown-item:hover {
   min-height: 70vh;
 }
 .contacto .contacto__form {
-  background-color: hsla(300deg, 23%, 64%, 0.8);
+  background-color: hsla(300deg, 23%, 64%, 0.7);
   border-radius: 5px;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -141,7 +152,6 @@ footer .footer__logos .footer__img:hover {
 }
 
 .button:hover {
-  font-size: 18px;
-  transform: scale(1.1, 1.1);
+  transform: scale(1.08, 1.08);
   transition: all 1s ease-in-out;
 }/*# sourceMappingURL=styles.css.map */

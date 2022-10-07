@@ -1,8 +1,7 @@
 .button {
     @extend %buttondefault;
     &:hover {
-        font-size: 18px;
-        transform: scale(1.1,1.1);
+        transform: scale(1.08,1.08);
         transition: all 1s ease-in-out;
     }
 }

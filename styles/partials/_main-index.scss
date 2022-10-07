@@ -7,7 +7,7 @@
     .home__description {
         min-height: 20vh;
         padding: 1rem 0 1rem 0;
-        margin-top: 15rem;
+        margin-top: 10rem;
         background-color: map-get($colores , background-card );
         .description__links {
             display: flex;
@@ -15,7 +15,15 @@
             margin: 0;
             padding: 0;
             font-size: 1.5em;
+            li {
+                &:hover {
+                    transform: scale(1.1,1.1);
+                }
             }
+            }
+            .img-descripcion {
+                padding: 1em;
+        }
     }
 }
 
