@@ -2,20 +2,13 @@ footer {
     background-image: linear-gradient(to top, $background-gradiente-lineal);
     min-height: 10vh;
     .footer__button {
-        margin-top: .4rem;
+        margin-top: .7rem;
     }
     .footer__logos {
         margin-left: 1rem;
         margin-bottom: 1rem;
         padding: 0.5rem;
-        &:hover {
-            background-color:map-get($colores , backgroun-button-hover );
-            border-radius: map-get($tamanos , raddius-img ); 
-        }
         .footer__img {
-            height: 2.5rem;
-            width: 2.5rem;
-            border-radius: map-get($tamanos , raddius-img ); 
             &:hover {
                 transform: scale(1.1,1.1);
             }

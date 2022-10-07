@@ -1,9 +1,0 @@
-@mixin inicio($color){
-    border: none;
-    color: black;
-    font-size: 1.5rem;
-    width: fit-content;
-    &:hover {
-        background-color: $color;
-    }
-}

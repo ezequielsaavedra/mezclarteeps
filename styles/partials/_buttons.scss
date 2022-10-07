@@ -1,36 +1,11 @@
 .button {
     @extend %buttondefault;
     &:hover {
-        font-size: 18px;
-        transform: scale(1.1,1.1);
+        transform: scale(1.08,1.08);
         transition: all 1s ease-in-out;
     }
 }
 
 .button-contacto {
     @extend %buttondefault;
-}
-
-.description__links {
-    .description__button {
-        &:nth-child(1) {
-            @include inicio (rgb(248, 153, 212))
-        }
-        &:nth-child(2) {
-            @include inicio (rgb(236, 131, 196))
-        }
-        &:nth-child(3) {
-            @include inicio (rgb(189, 92, 152))
-        }
-        &:nth-child(4) {
-            @include inicio (rgb(155, 60, 118))
-        }
-        &:nth-child(5) { 
-            @include inicio (rgb(153, 50, 114))
-        }
-        a {
-            color: black;
-            font-size: 1.5rem;
-        }
-    }
 }
