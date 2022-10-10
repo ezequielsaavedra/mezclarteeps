@@ -89,12 +89,17 @@ header .offcanvas .nav-item .dropdown-menu .dropdown-item:hover {
   margin: 1rem;
 }
 .main-products .encabezado-productos {
-  letter-spacing: 1em;
+  letter-spacing: 1rem;
+  margin: 0;
+  padding: 0;
   cursor: pointer;
 }
 .main-products .encabezado-productos:hover {
-  letter-spacing: 1.5em;
+  letter-spacing: 1.5rem;
   transition: all 1s ease-in-out;
+}
+.main-products .encabezado-productos h1 {
+  margin: 0;
 }
 .main-products .products {
   border: 1px solid rgb(168, 163, 163);

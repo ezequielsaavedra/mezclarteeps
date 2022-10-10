@@ -2,11 +2,16 @@
     min-height: map-get($tamanos , height-main );
     margin: 1rem;
     .encabezado-productos{
-        letter-spacing: 1em;
+        letter-spacing: 1rem;
+        margin: 0;
+        padding: 0;
         cursor: pointer;
         &:hover {
-            letter-spacing: 1.5em;
+            letter-spacing: 1.5rem;
             transition: all 1s ease-in-out;
+        }
+        h1 {
+            margin: 0;
         }
     }
     .products{
